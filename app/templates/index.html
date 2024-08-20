@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoldMind Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+</head>
+<body>
+    <h1>Welcome to BoldMind Quiz!</h1>
+    <p>Answer the following question:</p>
+
+    <div>
+        <h2>{{ question }}</h2>
+        <p><strong>Difficulty:</strong> {{ difficulty }}</p>
+    </div>
+
+    <form action="{{ url_for('check_answer') }}" method="POST">
+        {% for answer in correct_answer %}
+        <input type="hidden" name="correct_answer[]" value="{{ answer }}">
+        {% endfor %}
+        <input type="text" id="answer" name="answer" required><br><br>
+        <button type="submit">Submit Answer</button>
+    </form>
+
+    {% if feedback %}
+    <h2>Feedback:</h2>
+    <p>{{ feedback }}</p>
+    {% endif %}
+
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

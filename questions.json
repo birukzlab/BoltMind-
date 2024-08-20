@@ -1,0 +1,79 @@
+[
+    {
+        "question": "If the odds of a team winning a match are 3:1, what is the probability that the team will win?",
+        "answer": ["0.75", "3/4"], 
+        "difficulty": "intermediate"
+    },
+    {
+        "question": "A product originally priced at $50 is now on sale for $40. What is the percentage decrease in price?",
+        "answer": ["20%"],
+        "difficulty": "easy"
+    },
+    {
+        "question": "If you roll a fair six-sided die, what is the probability of rolling an even number?",
+        "answer": ["0.5", "1/2"],
+        "difficulty": "easy"
+    },
+    {
+        "question": "You draw two cards from a standard deck of 52 cards without replacement. What is the probability that both cards are aces?",
+        "answer": ["1/221", "approximately 0.0045"],
+        "difficulty": "advanced"
+    },
+    {
+        "question": "What is the probability of flipping a coin and getting heads?",
+        "answer": ["0.5", "1/2"],
+        "difficulty": "easy"
+    },
+    {
+        "question": "A coin is tossed twice. What is the probability of getting at least one head?",
+        "answer": ["0.75", "3/4"],
+        "difficulty": "intermediate"
+    },
+    {
+        "question": "A bag contains 3 red marbles and 7 blue marbles. What is the probability of drawing a red marble?",
+        "answer": ["0.3", "3/10"],
+        "difficulty": "easy"
+    },
+    {
+        "question": "A dice is rolled. What is the probability of getting a number greater than 4?",
+        "answer": ["0.33", "1/3"],
+        "difficulty": "easy"
+    },
+    {
+        "question": "If the odds of winning a lottery are 1:1000, what is the probability of winning?",
+        "answer": ["1/1001", "0.000999"],
+        "difficulty": "advanced"
+    },
+    {
+        "question": "A store offers a 20% discount on all items. If a product originally costs $50, what is the final price after the discount?",
+        "answer": ["40", "$40"],
+        "difficulty": "easy"
+    },
+    {
+        "question": "A box contains 5 red balls, 3 green balls, and 2 blue balls. Two balls are drawn without replacement. What is the probability that both balls are red?",
+        "answer": ["0.2857", "2/7"],
+        "difficulty": "intermediate"
+    },
+    {
+        "question": "A card is drawn from a standard deck of 52 cards. What is the probability of drawing a heart or a king?",
+        "answer": ["0.3077", "4/13"],
+        "difficulty": "intermediate"
+    },
+    {
+        "question": "A stock price increases from $20 to $25. What is the percentage increase?",
+        "answer": ["25%"],
+        "difficulty": "easy"
+    },
+    {
+        "question": "A gambler bets $100 on a horse race. The odds of the horse winning are 3:2. If the horse wins, how much money will the gambler win?",
+        "answer": ["150", "$150"],
+        "difficulty": "intermediate"
+    },
+    {
+        "question": "A survey shows that 60% of people prefer coffee over tea. If there are 500 people surveyed, how many people prefer tea?",
+        "answer": ["200"],
+        "difficulty": "easy"
+    }
+]
+
+
